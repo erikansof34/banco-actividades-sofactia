@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop NOM 035</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="dragDropContainer" class="container-nom035">
+        <div id="desktopContainer" class="sortable-container-nom035">
+            <!-- Las letras se insertarán aquí dinámicamente -->
+        </div>
+
+        <div id="mobileContainer" class="mobile-container-nom035" style="display: none;">
+            <div class="instruction-mobile-nom035">
+                Arrastra las letras a su posición correcta para formar "NOM 035"
+            </div>
+            <div class="images-container-nom035"></div>
+            <div class="word-container-nom035"></div>
+            <div class="selects-container-nom035"></div>
+        </div>
+
+        <div id="audioContainer" class="audio-container-nom035" style="display: none;">
+            <audio id="nomAudio" controls>
+                <source src="assets/en-mexico-somos-m1-slide-8.mp3" type="audio/mp3">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </div>
+
+        <div id="validationMessage" class="validation-message-nom035" style="display: none;"></div>
+
+        <div class="button-container-nom035">
+            <button id="validateBtn" class="btn sf-btn sf-btn-blue" disabled>
+                <i class="fas fa-check"></i> Validar
+            </button>
+            <button id="resetBtn" class="btn sf-btn sf-btn-blue" disabled>
+                <i class="fas fa-repeat"></i> Reiniciar
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
