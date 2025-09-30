@@ -5,7 +5,7 @@ Este proyecto es un repositorio de actividades interactivas diseñadas en React,
 ---
 
 ## 🛠️ Desarrollador
-**Brayan Orozco**
+**Yesith Chimás M**
 
 ---
 
