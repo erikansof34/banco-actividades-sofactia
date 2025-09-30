@@ -82,4 +82,4 @@ iframeWeb: "./actividades/actividaddraganddropmanos1/index.html"
 
 ### Servidor
 
-iframeWeb: "../../demos/banco-actividades-react/assets/actividades/actividaddraganddropmanos1/index.html"
+iframeWeb: "./actividades/actividaddraganddropmanos1/index.html"
